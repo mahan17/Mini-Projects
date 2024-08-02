@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(./images/Honor-MagicBook-keyboard.jpg);
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-color: 50%;
+    display: flex;
+}
+.logo{
+    border: solid 0px;
+    height: 200px;
+    width: 50%;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align:end;
+    font-size: 64px;
+    margin-top: 70px;
+    margin-right: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.menus{
+    height: 200px;
+    width: 50%;
+  
+}
+.menus ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 70px;
+    margin-right: 40%;
+}
+.menus a{
+    color: white;
+    text-decoration: none;
+}
+.menus a:hover{
+    color: rgb(230, 219, 219);
+}
+
+/* ------------------------------------ */
+header{
+    margin: 0px;
+    opacity: 20px;
+    color: blue;
+}
+.header-2{
+    height: 150px;
+    width: 100%;
+    opacity: 30px;
+    padding: 50px 0px 50px 0px;
+}
+.header-2 h1{
+    font-size: 40px;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.domain{
+    color: black;
+    
+}
+.domain2{
+    color: white;
+    text-decoration: overline;
+}
+/* ------------------------------------ */
+
+.brands{
+    width: 70%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.brands h2{
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(76, 74, 74);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.part2 img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    height: 300px;
+}
+.autoparts{
+    width: 100%;
+    font-size: larger;
+}
+/* ------------------------------ */
+/* footer */
+.footer{
+    display: flex;
+}
+.footer-left{
+    width: 50%;
+    height: 400px;
+    align-items: center;
+    margin: auto;
+}
+label{
+    display: block;
+}
+input{
+    margin: 5px;
+}
